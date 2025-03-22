@@ -1,0 +1,38 @@
+.clients_cont {
+  width: 85%;
+  height: auto;
+  max-height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #555555;
+  border-bottom: 2px solid #555555;
+  padding: 67px 0;
+
+  img {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .clients_cont {
+    padding: 47px 0;
+  }
+}
+
+@media screen and (max-width: 631px) {
+  .clients_cont {
+    padding: 37px 16px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .clients_cont {
+    padding: 24px 16px;
+  }
+}

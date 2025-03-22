@@ -1,0 +1,87 @@
+.feedback_cont {
+  width: 85%;
+  height: auto;
+  border-radius: 6px;
+  background-color: #bfaff2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 83px 0;
+
+  .feedback_inner {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 50px;
+
+    .message_content {
+      max-width: 756px;
+      text-wrap: wrap;
+    }
+
+    .user_info_cont {
+      width: auto;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+
+      img {
+        max-width: 80px;
+        max-height: 80px;
+      }
+
+      .about_user {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+
+        h1 {
+          color: #847aa2;
+        }
+
+        img {
+          width: 70%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .feedback_cont {
+    .feedback_inner {
+      .message_content {
+        font-size: 18px;
+        max-width: 756px;
+        text-wrap: wrap;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 631px) {
+  .feedback_cont {
+    .feedback_inner {
+      .message_content {
+        text-align: center;
+      }
+
+      .user_info_cont {
+        flex-wrap: wrap;
+
+        h1 {
+          font-size: 16px;
+        }
+
+        img {
+          width: 90%;
+        }
+      }
+    }
+  }
+}

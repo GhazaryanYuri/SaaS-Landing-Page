@@ -1,0 +1,38 @@
+nav {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px;
+
+  .title {
+    color: white;
+    font-size: 2vw;
+    cursor: default;
+  }
+
+  .buttons_cont {
+    display: flex;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+
+    .title {
+      font-size: 24px;
+    }
+
+    .buttons_cont {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.feature_cont {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+@media screen and (max-width: 630px) {
+  .feature_cont {
+    flex-wrap: wrap;
+  }
+}

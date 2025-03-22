@@ -1,0 +1,53 @@
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.6vw;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  transition: 0.1s all linear;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.popup_btn {
+  border: 2px solid white;
+  border-radius: 100px;
+
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+.primary {
+  background-color: #bfaff2;
+  font-size: 1.6vw;
+  padding: 10px 60px;
+  border: none;
+  color: #333333;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.1s all linear;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.light_gold {
+  background-color: #f8d57e;
+  font-size: 1.6vw;
+  padding: 10px 60px;
+  border: none;
+  color: #333333;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.1s all linear;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
